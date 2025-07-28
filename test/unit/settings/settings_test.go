@@ -2,7 +2,7 @@ package settings
 
 import (
 	"encoding/json"
-	yoosettings "github.com/rvinnie/yookassa-sdk-go/yookassa/settings"
+	yoosettings "github.com/BlaisePopov/yookassa-sdk-go/yookassa/settings"
 	"reflect"
 	"testing"
 )
