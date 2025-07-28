@@ -97,4 +97,7 @@ type Payment struct {
 	// The identifier of the customer in your system, such as email address or phone number.
 	// No more than 200 characters.
 	MerchantCustomerID string `json:"merchant_customer_id,omitempty" binding:"max=200"`
+
+	// The attribute of a payment that was made with a saved payment method.
+	SavePaymentMethod bool `json:"save_payment_method,omitempty"`
 }
