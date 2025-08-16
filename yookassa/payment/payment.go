@@ -100,4 +100,7 @@ type Payment struct {
 
 	// The attribute of a payment that was made with a saved payment method.
 	SavePaymentMethod bool `json:"save_payment_method,omitempty"`
+
+	// The identifier of a saved payment method.
+	PaymentMethodID string `json:"payment_method_id,omitempty"`
 }
